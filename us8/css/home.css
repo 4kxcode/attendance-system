@@ -1,0 +1,17 @@
+body {
+	font-family: "Lato", sans-serif
+}
+.mySlides {
+	display: none;
+}
+
+.myHover {
+	text-decoration: none;
+	color: black;
+}
+
+myHover:hover {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Encoding -->
+  <meta charset="utf-8">
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Anchor Tag | Web Design - HTML</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../us8/images/logo.png">
+
+  <!-- External CSS Link -->
+  <link rel="stylesheet" href="../us8/css/styles.css">
+	<link rel="stylesheet" href="../us8/css/cards.css">
+</head>
+
+<body>
+
+<!-- Tabs -->
+<div class="w3-container w3-green">
+  <h2>Anchor Tag</h2>
+  <h3>Anchor Tag <mark>&lt;a&gt;</mark> is used to display images in HTML in WWW Webpage.</h3>
+  <p><b>Click the button <mark><strong>Copy Source Code</strong></mark> to copy the HTML code and paste in sublime text editor and save as <mark><strong><em><a href="../us8/SourceCode/anchor.html" target="_blank">anchor.html</a></em></strong></mark> and open in browser to render the output.</b></p>
+</div>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTabs(event, 'SyntaxAnchor')">Syntax</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeAnchor')">Source Code</button>
+  <button class="tablinks" onclick="openTabs(event, 'OutputAnchor')">Output</button>
+</div>
+
+<div id="SyntaxAnchor" class="tabcontent">
+	<div id="MyCopyToClipboardSyntaxAnchor" onclick="CopyToClipboardSyntaxAnchor()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>Syntax</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;a href="../anchor.html" target="_blank"&gt;anchor.html&lt;/a&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSyntaxAnchor('MyCopyToClipboardSyntaxAnchor')">Copy Source Code</button>
+</div>
+
+<div id="SourceCodeAnchor" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeAnchor" onclick="CopyToClipboardSourceCodeAnchor()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the anchor tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    			&nbsp;&nbsp;&lt;title&gt;Anchor Tag&lt;/title&gt;<br>
+    			&lt;/head&gt;<br><br>
+			  	&lt;body&gt;<br>
+			  	&nbsp;&nbsp;&lt;h1&gt;Anchor Tag&lt;/h1&gt;<br>
+			  	&nbsp;&nbsp;&lt;h2&gt;<br>
+			  	&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="../anchor.html" target="_blank"&gt;anchor.html&lt;/a&gt;<br>
+			  	&nbsp;&nbsp;&lt;h2&gt;<br>
+			  	&lt;/body&gt;<br><br>
+			  	&lt;/html&gt;
+  			</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeAnchor('MyCopyToClipboardSourceCodeAnchor')">Copy Source Code</button>
+</div>
+
+<div id="OutputAnchor" class="tabcontent">
+	<div>
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>Output</h4>
+			<div class="w3-code htmlHigh notranslate">
+			    <h1>Anchor Tag</h1>
+			    <div class="w3-container">
+						<div class="w3-row-padding">
+							<div class="w3-container w3-third">
+								<img src="../us8/images/anchor/anchor.png" style="width: 564px; height: 288px; cursor:pointer" 
+								onclick="onClick(this)" class="w3-hover-opacity">
+							</div>
+						</div>
+					</div>
+					<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+						<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+						<div class="w3-modal-content w3-animate-zoom">
+							<img id="img01" style="width: 564px; height:288px;">
+						</div>
+					</div>
+  			</div>
+		</div>
+  </div>
+</div>
+
+
+<!-- External JS Link -->
+<script src="../us8/js/scripts.js"></script>
+<script src="../us8/js/codehighlighter.js"></script>
+<script>w3CodeColor();</script>
+
+</body>
+</html>
+
+

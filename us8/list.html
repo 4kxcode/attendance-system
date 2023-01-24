@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Encoding -->
+  <meta charset="utf-8">
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>List Tag | Web Design - HTML</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../us8/images/logo.png">
+
+  <!-- External CSS Link -->
+  <link rel="stylesheet" href="../us8/css/styles.css">
+	<link rel="stylesheet" href="../us8/css/cards.css">
+</head>
+
+<body>
+
+<!-- Tabs -->
+<div class="w3-container w3-green">
+  <h2>List Tag</h2>
+  <h3>List Tag <mark>&lt;ul&gt;</mark> and <mark>&lt;ol&gt;</mark> are used to unordered and ordered list in HTML in WWW Webpage.</h3>
+  <p><b>Click the button <mark><strong>Copy Source Code</strong></mark> to copy the HTML code and paste in sublime text editor and save as 
+  	<mark><strong><em><a href="../us8/SourceCode/list.html" target="_blank">list.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/unorderedlist.html" target="_blank">unorderedlist.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/orderedlist.html" target="_blank">orderedlist.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/ulollist.html" target="_blank">ulollist.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/ulollistall.html" target="_blank">ulollistall.html</a></em></strong></mark> 
+  and open in browser to render the output.</b></p>
+</div>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTabs(event, 'SyntaxList')">Syntax</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeList')">Source Code</button>
+  <button class="tablinks" onclick="openTabs(event, 'OutputList')">Output</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeListUnorderedList')">SourceCode(Unordered List)</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeListOrderedList')">SourceCode(Ordered List)</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeListUnorderedListOrderedList')">SourceCode(UL and OL)</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeListUnorderedListOrderedListAll')">SourceCode(UL and OL - all)</button>
+</div>
+
+<div id="SyntaxList" class="tabcontent">
+	<div id="MyCopyToClipboardSyntaxList" onclick="CopyToClipboardSyntaxList()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>Syntax</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;ul type="disc"&gt;<br>
+				&nbsp;&nbsp;&lt;li>Sanjana Lama&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;li>Ranjit Kafle&lt;/li&gt;<br>
+				&lt;/ul&gt;<br><br>
+				&lt;ol type="1"&gt;<br>
+				&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&lt;/ol><br>
+			</div>
+    </div>
+  </div>
+  <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSyntaxList('MyCopyToClipboardSyntaxList')">Copy Source Code</button>
+</div>
+
+<div id="SourceCodeList" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeList" onclick="CopyToClipboardSourceCodeList()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the list tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;List Tag&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;List Tag&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;h3&gt;Unordered List&lt;/h3&gt;<br>
+			  &nbsp;&nbsp;&lt;ul type="disc"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjana Lama&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Ranjit Kafle&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ul&gt;<br><br>
+				&nbsp;&nbsp;&lt;h3&gt;Ordered List&lt;/h3&gt;<br>
+				&nbsp;&nbsp;&lt;ol type="1"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ol><br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+  </div>
+  <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeList('MyCopyToClipboardSourceCodeList')">Copy Source Code</button>
+</div>
+
+<div id="OutputList" class="tabcontent">
+	<div>
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>Output</h4>
+			<div class="w3-code htmlHigh notranslate">
+			    <h1>List Tag</h1>
+			    <div class="w3-container">
+						<div class="w3-row-padding">
+							<div class="w3-container w3-third">
+								<img src="../us8/images/list/list.png" style="width: 689px; height: 363px; cursor:pointer" 
+								onclick="onClick(this)" class="w3-hover-opacity">
+							</div>
+						</div>
+					</div>
+					<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+						<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+						<div class="w3-modal-content w3-animate-zoom">
+							<img id="img01" style="width: 689px; height:363px;">
+						</div>
+					</div>
+  			</div>
+		</div>
+  </div>
+</div>
+
+<!-- Unordered List -->
+<div id="SourceCodeListUnorderedList" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeListUnorderedList" onclick="CopyToClipboardSourceCodeListUnorderedList()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the unordered list.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Unordered List | List Tag&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;Unordered List&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;ul type="disc"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjana Lama&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Ranjit Kafle&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ul&gt;<br><br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+  </div>
+  <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeListUnorderedList('MyCopyToClipboardSourceCodeListUnorderedList')">Copy Source Code</button>
+</div>
+
+<!-- Ordered List -->
+<div id="SourceCodeListOrderedList" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeListOrderedList" onclick="CopyToClipboardSourceCodeListOrderedList()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the ordered list.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Ordered List | List Tag&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;Ordered List&lt;/h1&gt;<br>
+				&nbsp;&nbsp;&lt;ol type="1"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ol><br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+  </div>
+  <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeListOrderedList('MyCopyToClipboardSourceCodeListOrderedList')">Copy Source Code</button>
+</div>
+
+<!-- Unordered and Ordered List -->
+<div id="SourceCodeListUnorderedListOrderedList" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeListUnorderedListOrderedList" onclick="CopyToClipboardSourceCodeListUnorderedListOrderedList()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the unordered and ordered list.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Unordered and Ordered List | List Tag&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;Unordered and Ordered List&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;h3&gt;Unordered List&lt;/h3&gt;<br>
+			  &nbsp;&nbsp;&lt;ul type="disc"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjana Lama&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Ranjit Kafle&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ul&gt;<br><br>
+				&nbsp;&nbsp;&lt;h3&gt;Ordered List&lt;/h3&gt;<br>
+				&nbsp;&nbsp;&lt;ol type="1"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ol><br><br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+  </div>
+  <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeListUnorderedListOrderedList('MyCopyToClipboardSourceCodeListUnorderedListOrderedList')">Copy Source Code</button>
+</div>
+
+<!-- Unordered and Ordered List All -->
+<div id="SourceCodeListUnorderedListOrderedListAll" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeListUnorderedListOrderedListAll" onclick="CopyToClipboardSourceCodeListUnorderedListOrderedListAll()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the unordered and ordered list all.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Unordered and Ordered List ALl | List Tag&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;Unordered and Ordered List All&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;h3&gt;Unordered List All&lt;/h3&gt;<br>
+			  &nbsp;&nbsp;&lt;ul type="disc"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjana Lama&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Ranjit Kafle&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ul&gt;<br><br>
+				&nbsp;&nbsp;&lt;ul type="circle"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjana Lama&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Ranjit Kafle&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ul&gt;<br><br>
+				&nbsp;&nbsp;&lt;ul type="square"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjana Lama&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Ranjit Kafle&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ul&gt;<br><br>
+				&nbsp;&nbsp;&lt;h3&gt;Ordered List All&lt;/h3&gt;<br>
+				&nbsp;&nbsp;&lt;ol type="1"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ol><br><br>
+				&nbsp;&nbsp;&lt;ol type="I"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ol><br><br>
+				&nbsp;&nbsp;&lt;ol type="i"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ol><br><br>
+				&nbsp;&nbsp;&lt;ol type="A"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ol><br><br>
+				&nbsp;&nbsp;&lt;ol type="a"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Binita Gurung&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>Sanjay Adhikari&lt;/li&gt;<br>
+				&nbsp;&nbsp;&lt;/ol><br><br> 
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+  </div>
+  <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeListUnorderedListOrderedListAll('MyCopyToClipboardSourceCodeListUnorderedListOrderedListAll')">Copy Source Code</button>
+</div>
+
+
+<!-- External JS Link -->
+<script src="../us8/js/scripts.js"></script>
+<script src="../us8/js/codehighlighter.js"></script>
+<script>w3CodeColor();</script>
+
+</body>
+</html>
+
+

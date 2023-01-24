@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Encoding -->
+  <meta charset="utf-8">
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Table Tag | Web Design - HTML</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../us8/images/logo.png">
+
+  <!-- External CSS Link -->
+  <link rel="stylesheet" href="../us8/css/styles.css">
+	<link rel="stylesheet" href="../us8/css/cards.css">
+</head>
+
+<body>
+
+<!-- Tabs -->
+<div class="w3-container w3-green">
+  <h2>Table Tag</h2>
+  <h3>Table Tag <mark>&lt;table&gt;</mark> is used to create Tables in HTML in WWW Webpage.</h3>
+  <p><b>Click the button <mark><strong>Copy Source Code</strong></mark> to copy the HTML code and paste in sublime text editor and save as  
+  	<mark><strong><em><a href="../us8/SourceCode/table.html" target="_blank">table.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/table1.html" target="_blank">table1.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/table2.html" target="_blank">table2.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/table3.html" target="_blank">table3.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/table4.html" target="_blank">table4.html</a></em></strong></mark>, 
+  	<mark><strong><em><a href="../us8/SourceCode/table5.html" target="_blank">table5.html</a></em></strong></mark>,  
+  	<mark><strong><em><a href="../us8/SourceCode/table12345.html" target="_blank">table12345.html</a></em></strong></mark> <br>
+  and open in browser to render the output.</b></p>
+</div>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTabs(event, 'SyntaxTable')">Syntax</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeTable')">Source Code</button>
+  <button class="tablinks" onclick="openTabs(event, 'OutputTable')">Output</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeTableOne')">SourceCode(table1)</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeTableTwo')">SourceCode(table2)</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeTableThree')">SourceCode(table3)</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeTableFour')">SourceCode(table4)</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeTableFive')">SourceCode(table5)</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeTable12345')">SourceCode(table12345)</button>
+</div>
+
+<div id="SyntaxTable" class="tabcontent">
+	<div id="MyCopyToClipboardSyntaxTable" onclick="CopyToClipboardSyntaxTable()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>Syntax</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&nbsp;&nbsp;&lt;table width="25%" align="center" border="1px"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Table Head One&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Table Head Two&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Table Data One&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Table Data Two&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br>
+  			</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSyntaxTable('MyCopyToClipboardSyntaxTable')">Copy Source Code</button>
+</div>
+
+<div id="SourceCodeTable" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeTable" onclick="CopyToClipboardSourceCodeTable()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the table tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Table Tag&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Table Tag&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table width="25%" align="center" border="1px"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Table Head One&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Table Head Two&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Table Data One&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Table Data Two&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br>
+
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeTable('MyCopyToClipboardSourceCodeTable')">Copy Source Code</button>
+</div>
+
+<div id="OutputTable" class="tabcontent">
+	<div>
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>Output</h4>
+			<div class="w3-code htmlHigh notranslate">
+			    <h1>Table Tag</h1>
+			    <div class="w3-container">
+						<div class="w3-row-padding">
+							<div class="w3-container w3-third">
+								<img src="../us8/images/table/table.png" style="width: 600px; height: 298px; cursor:pointer" 
+								onclick="onClick(this)" class="w3-hover-opacity">
+							</div>
+						</div>
+					</div>
+					<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+						<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+						<div class="w3-modal-content w3-animate-zoom">
+							<img id="img01" style="width: 600px; height:298px;">
+						</div>
+					</div>
+  			</div>
+		</div>
+  </div>
+</div>
+
+<!-- Table One -->
+<div id="SourceCodeTableOne" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeTableOne" onclick="CopyToClipboardSourceCodeTableOne()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the table tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Table Tag | Table One&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;Table One&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Sanju&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Gopal&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeTableOne('MyCopyToClipboardSourceCodeTableOne')">Copy Source Code</button>
+</div>
+
+<!-- Table Two -->
+<div id="SourceCodeTableTwo" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeTableTwo" onclick="CopyToClipboardSourceCodeTableTwo()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the table tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Table Tag | Table Two&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;Table Two&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table border="1px"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Sanju&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Gopal&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeTableTwo('MyCopyToClipboardSourceCodeTableTwo')">Copy Source Code</button>
+</div>
+
+<!-- Table Three -->
+<div id="SourceCodeTableThree" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeTableThree" onclick="CopyToClipboardSourceCodeTableThree()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the table tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Table Tag | Table Three&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Table Three&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table style="width:100%" border="1px"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Sanju&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Gopal&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeTableThree('MyCopyToClipboardSourceCodeTableThree')">Copy Source Code</button>
+</div>
+
+<!-- Table Four -->
+<div id="SourceCodeTableFour" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeTableFour" onclick="CopyToClipboardSourceCodeTableFour()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the table tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Table Tag | Table Four&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Table Four&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table style="width:50%" border="1px" align="center"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr style="color: white; background: green;"&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr style="color: red; background: white;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Sanju&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr style="color: blue; background: #f2f2f2;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Gopal&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeTableTwo('MyCopyToClipboardSourceCodeTableFour')">Copy Source Code</button>
+</div>
+
+<!-- Table Five -->
+<div id="SourceCodeTableFive" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeTableFive" onclick="CopyToClipboardSourceCodeTableFive()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the table tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Table Tag | Table Five&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Table Five&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table style="width:40%"  align="center"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr style="color: white; background: green;"&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="6%" height="30px" style="color: white; background: green;"&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="30%" height="30px" style="color: white; background: green;"&gt;Name&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="10%" height="30px" style="color: white; background: green;"&gt;Section&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="10%" height="30px" style="color: white; background: green;"&gt;Roll No.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="44%" height="30px" style="color: white; background: green;"&gt;Remarks&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;trtr style="color: red; background: white;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="6%" height="35px" style="color: blue; background: #f9f9f9;"&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="30%" height="35px" style="color: blue; background: #f9f9f9;"&gt;Sanju Magar&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: blue; background: #f9f9f9;"&gt;A&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: blue; background: #f9f9f9;"&gt;7&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="44%" height="35px" style="color: blue; background: #f9f9f9;"&gt;She is very discipline. She is doing very good.&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;trtr style="color: blue; background: #f2f2f2;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="6%" height="35px" style="color: red; background: #f0f0f0;"&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="30%" height="35px" style="color: red; background: #f0f0f0;"&gt;Gopal Gharti Ale Thapa Magar&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: red; background: #f0f0f0;"&gt;B&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: red; background: #f0f0f0;"&gt;19&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="44%" height="35px" style="color: red; background: #f0f0f0;"&gt;He is academically excellent. He is very honest and interactive too.&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;trtr style="color: red; background: white;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="6%" height="35px" style="color: blue; background: #f9f9f9;"&gt;3&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="30%" height="35px" style="color: blue; background: #f9f9f9;"&gt;Savy Pokhrel&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: blue; background: #f9f9f9;"&gt;C&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: blue; background: #f9f9f9;"&gt;9&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="44%" height="35px" style="color: blue; background: #f9f9f9;"&gt;She is very interactive. She is excellent in ECA.&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;trtr style="color: blue; background: #f2f2f2;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="6%" height="35px" style="color: red; background: #f0f0f0;"&gt;4&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="30%" height="35px" style="color: red; background: #f0f0f0;"&gt;Sanjay Chhetri&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: red; background: #f0f0f0;"&gt;D&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: red; background: #f0f0f0;"&gt;31&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="44%" height="35px" style="color: red; background: #f0f0f0;"&gt;He is academically good but a little bit lazy.&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeTableFive('MyCopyToClipboardSourceCodeTableFive')">Copy Source Code</button>
+</div>
+
+<!-- Table 12345 -->
+<div id="SourceCodeTable12345" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeTable12345" onclick="CopyToClipboardSourceCodeTable12345()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the table tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Table Tag | Table 12345&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;!-- Table Tag --&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Table Tag&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table width="25%" align="center" border="1px"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Table Head One&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Table Head Two&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Table Data One&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Table Data Two&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br><br><br>
+			  &nbsp;&nbsp;&lt;!-- Table One --&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;Table One&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Sanju&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Gopal&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br><br><br>
+			  &nbsp;&nbsp;&lt;!-- Table Two --&gt;<br>
+			  &nbsp;&nbsp;&lt;h1&gt;Table Two&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table border="1px"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Sanju&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Gopal&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br><br><br>
+			  &nbsp;&nbsp;&lt;!-- Table Three --&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Table Three&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table style="width:100%" border="1px"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Sanju&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Gopal&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br><br><br>
+			  &nbsp;&nbsp;&lt;!-- Table Four --&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Table Four&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table style="width:50%" border="1px" align="center"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr style="color: white; background: green;"&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr style="color: red; background: white;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Sanju&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;tr style="color: blue; background: #f2f2f2;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center"&gt;Gopal&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br><br><br>
+			  &nbsp;&nbsp;&lt;!-- Table Five --&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Table Five&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;table style="width:40%"  align="center"&gt;<br>
+			  &nbsp;&nbsp;&lt;tr style="color: white; background: green;"&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="6%" height="30px" style="color: white; background: green;"&gt;S.N.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="30%" height="30px" style="color: white; background: green;"&gt;Name&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="10%" height="30px" style="color: white; background: green;"&gt;Section&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="10%" height="30px" style="color: white; background: green;"&gt;Roll No.&lt;/th&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th align="center" width="44%" height="30px" style="color: white; background: green;"&gt;Remarks&lt;/th&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;trtr style="color: red; background: white;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="6%" height="35px" style="color: blue; background: #f9f9f9;"&gt;1&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="30%" height="35px" style="color: blue; background: #f9f9f9;"&gt;Sanju Magar&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: blue; background: #f9f9f9;"&gt;A&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: blue; background: #f9f9f9;"&gt;7&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="44%" height="35px" style="color: blue; background: #f9f9f9;"&gt;She is very discipline. She is doing very good.&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;trtr style="color: blue; background: #f2f2f2;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="6%" height="35px" style="color: red; background: #f0f0f0;"&gt;2&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="30%" height="35px" style="color: red; background: #f0f0f0;"&gt;Gopal Gharti Ale Thapa Magar&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: red; background: #f0f0f0;"&gt;B&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: red; background: #f0f0f0;"&gt;19&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="44%" height="35px" style="color: red; background: #f0f0f0;"&gt;He is academically excellent. He is very honest and interactive too.&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;trtr style="color: red; background: white;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="6%" height="35px" style="color: blue; background: #f9f9f9;"&gt;3&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="30%" height="35px" style="color: blue; background: #f9f9f9;"&gt;Savy Pokhrel&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: blue; background: #f9f9f9;"&gt;C&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: blue; background: #f9f9f9;"&gt;9&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="44%" height="35px" style="color: blue; background: #f9f9f9;"&gt;She is very interactive. She is excellent in ECA.&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br><br>
+  			&nbsp;&nbsp;&lt;trtr style="color: blue; background: #f2f2f2;"&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="6%" height="35px" style="color: red; background: #f0f0f0;"&gt;4&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="30%" height="35px" style="color: red; background: #f0f0f0;"&gt;Sanjay Chhetri&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: red; background: #f0f0f0;"&gt;D&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="center" width="10%" height="35px" style="color: red; background: #f0f0f0;"&gt;31&lt;/td&gt;<br>
+    		&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align="left" width="44%" height="35px" style="color: red; background: #f0f0f0;"&gt;He is academically good but a little bit lazy.&lt;/td&gt;<br>
+  			&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;/table&gt;<br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeTable12345('MyCopyToClipboardSourceCodeTable12345')">Copy Source Code</button>
+</div>
+
+<!-- External JS Link -->
+<script src="../us8/js/scripts.js"></script>
+<script src="../us8/js/codehighlighter.js"></script>
+<script>w3CodeColor();</script>
+
+</body>
+</html>
+
+

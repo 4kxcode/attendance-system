@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Encoding -->
+  <meta charset="utf-8">
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Marquee Tag | Web Design - HTML</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../us8/images/logo.png">
+
+  <!-- External CSS Link -->
+  <link rel="stylesheet" href="../us8/css/styles.css">
+	<link rel="stylesheet" href="../us8/css/cards.css">
+</head>
+
+<body>
+
+<!-- Tabs -->
+<div class="w3-container w3-green">
+  <h2>Marquee Tag</h2>
+  <h3>Marquee Tag <mark>&lt;marquee&gt;</mark> is used to scroll the text in HTML in WWW Webpage.</h3>
+  <p><b>Click the button <mark><strong>Copy Source Code</strong></mark> to copy the HTML code and paste in sublime text editor and save as <mark><strong><em><a href="../us8/SourceCode/marquee.html" target="_blank">marquee.html</a></em></strong></mark> and open in browser to render the output.</b></p>
+</div>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTabs(event, 'SyntaxMarquee')">Syntax</button>
+  <button class="tablinks" onclick="openTabs(event, 'SourceCodeMarquee')">Source Code</button>
+  <button class="tablinks" onclick="openTabs(event, 'OutputMarquee')">Output</button>
+</div>
+
+<div id="SyntaxMarquee" class="tabcontent">
+	<div id="MyCopyToClipboardSyntaxMarquee" onclick="CopyToClipboardSyntaxMarquee()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>Syntax</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;marquee width="100%" behavior = "scroll" direction = "right" width="100%" height="22px" style="color: white; background: red;"&gt; United School &lt;/marquee&gt;
+  			</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSyntaxMarquee('MyCopyToClipboardSyntaxMarquee')">Copy Source Code</button>
+</div>
+
+<div id="SourceCodeMarquee" class="tabcontent">
+	<div id="MyCopyToClipboardSourceCodeMarquee" onclick="CopyToClipboardSourceCodeMarquee()">
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>&lt;!-- Design a basic webpage structure using HTML in order to demonstrate the marquee tag.--&gt;</h4>
+			<div class="w3-code htmlHigh notranslate">
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+    		&nbsp;&nbsp;&lt;title&gt;Marquee Tag&lt;/title&gt;<br>
+    		&lt;/head&gt;<br><br>
+			  &lt;body&gt;<br>
+			  &nbsp;&nbsp;&lt;h1 align="center"&gt;Marquee Tag&lt;/h1&gt;<br>
+			  &nbsp;&nbsp;&lt;p align="center"&gt;<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&lt;marquee width="100%" behavior = "scroll" direction = "right" width="100%" height="22px" style="color: white; background: red;"&gt; United School &lt;/marquee&gt;<br>
+			  &nbsp;&nbsp;&lt;p&gt;<br>
+			  &lt;/body&gt;<br><br>
+			  &lt;/html&gt;
+  		</div>
+		</div>
+    </div>
+    <button class="copyToMyClipboardBtn" onclick="CopyToClipboardSourceCodeMarquee('MyCopyToClipboardSourceCodeMarquee')">Copy Source Code</button>
+</div>
+
+<div id="OutputMarquee" class="tabcontent">
+	<div>
+		<div class="w3-panel w3-card w3-light-grey"> 
+			<h4>Output</h4>
+			<div class="w3-code htmlHigh notranslate">
+				<br>
+				<h1 align="center">Marquee Tag</h1>
+				<marquee width="100%" behavior = "scroll" direction = "right" width="100%" height="22px" style="color: white; background: red;"> United School </marquee>
+				<br><br><br><br>
+  			</div>
+		</div>
+    </div>
+</div>
+
+
+<!-- External JS Link -->
+<script src="../us8/js/scripts.js"></script>
+<script src="../us8/js/codehighlighter.js"></script>
+<script>w3CodeColor();</script>
+
+</body>
+</html>
+
